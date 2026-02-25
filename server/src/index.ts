@@ -22,7 +22,11 @@ sub.on("message", (_: any, msg: any) => {
   })
 })
 
+let count = 0;
+
 wss.on("connection", ws => {
+    count++;
+    console.log(`client connected, total clients: ${count}`);
   ws.on("message", async message => {
     const msg = message.toString()
     await chatQueue.add("chat", { msg })
