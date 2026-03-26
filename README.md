@@ -1,6 +1,6 @@
 # Distributed WebSocket Backend
 
-A learning project demonstrating distributed systems concepts using WebSocket, Redis pub/sub, and job queues. This project shows how to build a backend architecture where multiple components communicate asynchronously through message queues and pub/sub patterns.
+This project demonstrating distributed systems concepts using WebSocket, Redis pub/sub, and job queues. This project shows how to build a backend architecture where multiple components communicate asynchronously through message queues and pub/sub patterns.
 
 ## Architecture
 
